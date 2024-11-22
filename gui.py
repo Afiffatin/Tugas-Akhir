@@ -96,7 +96,7 @@ entry_usia = ctk.CTkEntry(frame_input, font=font)
 entry_usia.grid(row=2, column=1, padx=10, pady=5)
 
 # Combobox tingkat aktivitas
-label_akt = ctk.CTkLabel(frame_input, text="Tingkat Aktivitas (1-5):", font=font)
+label_akt = ctk.CTkLabel(frame_input, text="Tingkat Aktivitas:", font=font)
 label_akt.grid(row=3, column=0, padx=10, pady=5, sticky="w")
 
 # Pilih jenis kelamin
